@@ -1,0 +1,16 @@
+{
+  "name": "zalo-webhook-proxy",
+  "version": "1.0.0",
+  "description": "Webhook proxy for Zalo OA integration",
+  "main": "api/webhook.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
